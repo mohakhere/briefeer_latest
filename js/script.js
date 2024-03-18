@@ -83,13 +83,13 @@ const obs = new IntersectionObserver(
 );
 obs.observe(sectionHeroEl);
 
-$(window).on("scroll", function() {
-  if ($(window).scrollTop() > $(".section-hero").outerHeight()) {
-    $(".header").addClass("sticky");
-  } else {
-    $(".header").removeClass("sticky");
-  }
-});
+// $(window).on("scroll", function() {
+//   if ($(window).scrollTop() > $(".section-hero").outerHeight()) {
+//     $(".header").addClass("sticky");
+//   } else {
+//     $(".header").removeClass("sticky");
+//   }
+// });
 
 
 ///////////////////////////////////////////////////////////
@@ -168,11 +168,11 @@ const items = document.querySelectorAll(".accordion button");
 
 function toggleAccordion() {
   const itemToggle = this.getAttribute('aria-expanded');
-  
+
   for (i = 0; i < items.length; i++) {
     items[i].setAttribute('aria-expanded', 'false');
   }
-  
+
   if (itemToggle == 'false') {
     this.setAttribute('aria-expanded', 'true');
   }
