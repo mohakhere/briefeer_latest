@@ -248,15 +248,16 @@
 .boxes {
   display: flex;
   gap: 30px;
-  margin-left: 4.8rem;
+  left: 10%;
+  right: 10%;
   position: absolute;
-  bottom: -290px;
+  bottom: -250px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 350px;
+  width: 275px;
   height: 200px;
   border-radius: 5px;
   overflow: hidden;
