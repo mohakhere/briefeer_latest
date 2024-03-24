@@ -854,17 +854,15 @@
 
 .faq {
   background-color: #000;
-  height: 90vh;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 5rem;
+  padding: 20rem 5rem;
   background-image: url("../img/bg.svg");
 }
 
 .container-faq {
   width: auto;
-  max-width: 40%;
+  max-width: 38%;
 }
 
 .accordion .accordion-item {
