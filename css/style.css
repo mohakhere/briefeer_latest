@@ -865,8 +865,12 @@
   max-width: 38%;
 }
 
-.accordion .accordion-item {
+.accordion .accordion-item:not(:last-child) {
+  padding:1.5rem 0;
   border-bottom: 1px solid #e5e5e5;
+}
+.accordion .accordion-item:last-child {
+  margin-top:1.5rem;
 }
 
 .accordion button {
