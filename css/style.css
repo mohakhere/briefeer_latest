@@ -1,3 +1,7 @@
+/**************************/
+/* HEADER */
+/**************************/
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -12,6 +16,10 @@
 .logo {
   height: 3.5rem;
 }
+
+/**************************/
+/* NAVIGATION */
+/**************************/
 
 .main-nav-list {
   list-style: none;
@@ -943,3 +951,182 @@
   margin: 1em 0;
   color: rgb(255, 255, 255);
 }
+
+/*
+
+.faq{
+  background-color: #000000;
+}
+
+.container-faq {
+  margin: 0 auto;
+  padding: 4rem 0rem 4rem 4rem; /* Padding adjusted for left padding
+  width: 60rem; /* Increased width to accommodate three FAQs
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.accordion .accordion-title {
+  font-size: 2rem;
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion .icon {
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  left: 0; /* Changed from right to left
+  width: 22px;
+  height: 22px;
+}
+
+.accordion .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg); /* Rotate the arrow initially
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top: 6px solid currentColor; /* Make the arrow point downwards
+  transition: transform 0.3s ease; /* Add transition effect
+}
+
+.accordion button[aria-expanded='true'] .icon::before {
+  transform: translate(-50%, -50%) rotate(180deg); /* Rotate the arrow upwards when clicked
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 20em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 1em 0;
+  color: rgb(255, 255, 255);
+}
+
+/*
+.accordion .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #ffffff;
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+
+
+.accordion .icon {
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+*/
+
+/*
+.accordion .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid currentColor; /* Adjust arrow size as needed
+  transform: translateY(-50%);
+}
+
+.accordion .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid currentColor; /* Adjust arrow size as needed
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.accordion button[aria-expanded='true'] .icon::before {
+  border-bottom: none;
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+  border-top: none;
+  transform: translateY(-50%);
+}
+*/
