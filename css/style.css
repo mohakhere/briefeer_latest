@@ -562,14 +562,15 @@
 
 .top-image {
   position: absolute;
-  top: 30%;
+  top: 20%;
+  bottom: 20%
   left: -30%;
 }
 
 .top-image img {
   border-radius: 50%;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   object-fit: cover;
 }
 
