@@ -41,7 +41,6 @@
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
-
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -50,7 +49,6 @@
   font-weight: 500;
   font-size: 1.8rem;
 }
-
 .hover-underline-animation:after {
   content: "";
   position: absolute;
